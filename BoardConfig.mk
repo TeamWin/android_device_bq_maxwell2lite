@@ -33,12 +33,13 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 # TWRP specific build flags
-DEVICE_RESOLUTION := 1024x600
+TW_THEME := landscape_mdpi
 RECOVERY_SDCARD_ON_DATA := true
-TW_NO_SCREEN_TIMEOUT := true
-TW_INCLUDE_JB_CRYPTO := true
 TW_INTERNAL_STORAGE_PATH := "/data/media"
 TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
 TW_EXTERNAL_STORAGE_PATH := "/external_sd"
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
+TW_NO_SCREEN_TIMEOUT := true
+TW_NO_CPU_TEMP := true
+TW_INCLUDE_CRYPTO := true
 TW_BRIGHTNESS_PATH := /sys/devices/platform/rk29_backlight/backlight/rk28_bl/brightness
